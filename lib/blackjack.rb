@@ -32,9 +32,7 @@ end
 def hit?(num)
   prompt_user
   get_user_input
-  if get_user_input == 's'
-    BLAH
-  elsif get_use_inut == 'h'
+  if get_use_inut == 'h'
     deal_card 
   end
 end

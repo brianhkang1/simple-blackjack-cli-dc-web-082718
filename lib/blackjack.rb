@@ -26,7 +26,7 @@ def initial_round
   sum1 = deal_card
   sum2 = deal_card
   card_total = sum1 + sum2
-  return card_total 
+  return card_total filter_parameter_logging
   display_card_total(card_total)
 end
 

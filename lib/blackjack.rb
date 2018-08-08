@@ -39,6 +39,7 @@ def hit?(card_total)
     card_total 
   elsif input == 's'
     prompt_user
+    card_total
   end
 end
 
